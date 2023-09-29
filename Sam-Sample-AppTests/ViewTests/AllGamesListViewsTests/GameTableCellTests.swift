@@ -65,28 +65,8 @@ final class GameTableCellTests: XCTestCase {
         XCTAssertEqual(cell.timeLabel.text, "\(model.gameTime)'")
         XCTAssertEqual(cell.leagueLabel.text, model.league)
         XCTAssertEqual(cell.countryLabel.text, model.country)
-        
-//        if let url = URL(string: model.team1Logo) {
-//            DispatchQueue.global().async {
-//                if let data = try? Data(contentsOf: url) {
-//                    DispatchQueue.main.async { [self] in
-//                        XCTAssertEqual(UIImage(data: data)?.pngData(), self.cell?.team1ImageView.image?.pngData())
-//                    }
-//                }
-//            }
-//        }
-//
-//        if let url = URL(string: model.team2Logo) {
-//            DispatchQueue.global().async {
-//                if let data = try? Data(contentsOf: url) {
-//                    DispatchQueue.main.async { [self] in
-//                        XCTAssertEqual(UIImage(data: data)?.pngData(), self.cell?.team2ImageView.image?.pngData())
-//                    }
-//                }
-//            }
-//        }
 
-        XCTAssertTrue(cell.contentView.gestureRecognizers?.count == 2)
+        XCTAssertTrue(cell.gestureRecognizers?.count == 1)
 
     }
     
@@ -108,28 +88,8 @@ final class GameTableCellTests: XCTestCase {
         XCTAssertEqual(cell.timeLabel.text, "\(model.gameTime)'")
         XCTAssertEqual(cell.leagueLabel.text, model.league)
         XCTAssertEqual(cell.countryLabel.text, model.country)
-        
-//        if let url = URL(string: model.team1Logo) {
-//            DispatchQueue.global().async {
-//                if let data = try? Data(contentsOf: url) {
-//                    DispatchQueue.main.async { [self] in
-//                        XCTAssertEqual(UIImage(data: data)?.pngData(), self.cell?.team1ImageView.image?.pngData())
-//                    }
-//                }
-//            }
-//        }
-//
-//        if let url = URL(string: model.team2Logo) {
-//            DispatchQueue.global().async {
-//                if let data = try? Data(contentsOf: url) {
-//                    DispatchQueue.main.async { [self] in
-//                        XCTAssertEqual(UIImage(data: data)?.pngData(), self.cell?.team2ImageView.image?.pngData())
-//                    }
-//                }
-//            }
-//        }
 
-        XCTAssertTrue(cell.contentView.gestureRecognizers?.count == 2)
+        XCTAssertTrue(cell.gestureRecognizers?.count == 1)
     }
     
     func testViewWasTapped() {

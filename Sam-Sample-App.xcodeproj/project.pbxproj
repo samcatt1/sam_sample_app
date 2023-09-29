@@ -43,6 +43,8 @@
 		C1C5C1912AC46C0500F3C896 /* GameTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1C567112AB7BD3A000433CE /* GameTableCell.xib */; };
 		C1D68D342AC70A190003BC2F /* gamesSample.json in Resources */ = {isa = PBXBuildFile; fileRef = C1D68D332AC70A190003BC2F /* gamesSample.json */; };
 		C1D68D362AC70A440003BC2F /* statsSample.json in Resources */ = {isa = PBXBuildFile; fileRef = C1D68D352AC70A440003BC2F /* statsSample.json */; };
+		C1D68D372AC70AB10003BC2F /* gamesSample.json in Resources */ = {isa = PBXBuildFile; fileRef = C1D68D332AC70A190003BC2F /* gamesSample.json */; };
+		C1D68D382AC70AB50003BC2F /* statsSample.json in Resources */ = {isa = PBXBuildFile; fileRef = C1D68D352AC70A440003BC2F /* statsSample.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -444,6 +446,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1D68D382AC70AB50003BC2F /* statsSample.json in Resources */,
+				C1D68D372AC70AB10003BC2F /* gamesSample.json in Resources */,
 				C1C567122AB7BD3A000433CE /* GameTableCell.xib in Resources */,
 				C1C566E62AB38D5D000433CE /* LaunchScreen.storyboard in Resources */,
 				C1C566E32AB38D5D000433CE /* Assets.xcassets in Resources */,
