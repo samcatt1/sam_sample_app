@@ -1,14 +1,13 @@
 //
-//  Sam_Sample_AppTests.swift
+//  ErrorTableCellViewTests.swift
 //  Sam-Sample-AppTests
 //
-//  Created by Samantha Cattani on 2023-09-14.
+//  Created by Samantha Cattani on 2023-09-24.
 //
 
 import XCTest
-@testable import Sam_Sample_App
 
-final class Sam_Sample_AppTests: XCTestCase {
+final class ErrorTableCellViewTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
