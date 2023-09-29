@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C174054C2AC11D3E002035EF /* EmptyGameDetailCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C174054B2AC11D3E002035EF /* EmptyGameDetailCellTests.swift */; };
 		C17405512AC11EBA002035EF /* GameDetailCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17405502AC11EBA002035EF /* GameDetailCellTests.swift */; };
 		C17405552AC124B3002035EF /* GameDetailPageViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17405542AC124B3002035EF /* GameDetailPageViewControllerTests.swift */; };
 		C17405582AC12DFF002035EF /* GameTableCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17405572AC12DFF002035EF /* GameTableCellTests.swift */; };
@@ -65,7 +64,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C174054B2AC11D3E002035EF /* EmptyGameDetailCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyGameDetailCellTests.swift; sourceTree = "<group>"; };
 		C17405502AC11EBA002035EF /* GameDetailCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetailCellTests.swift; sourceTree = "<group>"; };
 		C17405542AC124B3002035EF /* GameDetailPageViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetailPageViewControllerTests.swift; sourceTree = "<group>"; };
 		C17405572AC12DFF002035EF /* GameTableCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTableCellTests.swift; sourceTree = "<group>"; };
@@ -133,7 +131,6 @@
 		C174054E2AC11D5C002035EF /* GameDetailViewTests */ = {
 			isa = PBXGroup;
 			children = (
-				C174054B2AC11D3E002035EF /* EmptyGameDetailCellTests.swift */,
 				C17405502AC11EBA002035EF /* GameDetailCellTests.swift */,
 			);
 			path = GameDetailViewTests;
@@ -505,7 +502,6 @@
 				C1C567472ABD2860000433CE /* GameCellViewModelTests.swift in Sources */,
 				C17405512AC11EBA002035EF /* GameDetailCellTests.swift in Sources */,
 				C1C567432ABD1E0A000433CE /* LoadingTableCellTests.swift in Sources */,
-				C174054C2AC11D3E002035EF /* EmptyGameDetailCellTests.swift in Sources */,
 				C1C567582ABDC8C4000433CE /* GameListViewControllerTests.swift in Sources */,
 				C1C567562ABDC66C000433CE /* MockAPI.swift in Sources */,
 				C1D68D3A2AC70CA00003BC2F /* MessageCellTests.swift in Sources */,
