@@ -1,0 +1,266 @@
+{
+  "get": "fixtures",
+  "parameters": {
+    "live": "all"
+  },
+  "errors": [],
+  "results": 29,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "fixture": {
+        "id": 1053407,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2023-09-20T17:00:00+00:00",
+        "timestamp": 1695229200,
+        "periods": {
+          "first": 1695229200,
+          "second": null
+        },
+        "venue": {
+          "id": 3734,
+          "name": "Park21-Arena Gurten",
+          "city": "Gurten"
+        },
+        "status": {
+          "long": "First Half",
+          "short": "1H",
+          "elapsed": 19
+        }
+      },
+      "league": {
+        "id": 222,
+        "name": "Regionalliga - Mitte",
+        "country": "Austria",
+        "logo": "https://media-4.api-sports.io/football/leagues/222.png",
+        "flag": "https://media-4.api-sports.io/flags/at.svg",
+        "season": 2023,
+        "round": "Mitte - 9"
+      },
+      "teams": {
+        "home": {
+          "id": 4942,
+          "name": "Gurten",
+          "logo": "https://media-4.api-sports.io/football/teams/4942.png",
+          "winner": null
+        },
+        "away": {
+          "id": 11225,
+          "name": "LASK Juniors",
+          "logo": "https://media-4.api-sports.io/football/teams/11225.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
+      "fixture": {
+        "id": 1088402,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2023-09-20T16:30:00+00:00",
+        "timestamp": 1695227400,
+        "periods": {
+          "first": 1695227400,
+          "second": null
+        },
+        "venue": {
+          "id": 6978,
+          "name": "Estadio Pedro Escartín",
+          "city": "Guadalajara"
+        },
+        "status": {
+          "long": "First Half",
+          "short": "1H",
+          "elapsed": 45
+        }
+      },
+      "league": {
+        "id": 879,
+        "name": "Segunda División RFEF - Group 5",
+        "country": "Spain",
+        "logo": "https://media-4.api-sports.io/football/leagues/879.png",
+        "flag": "https://media-4.api-sports.io/flags/es.svg",
+        "season": 2023,
+        "round": "Group 5 - 1"
+      },
+      "teams": {
+        "home": {
+          "id": 9900,
+          "name": "Guadalajara",
+          "logo": "https://media-4.api-sports.io/football/teams/9900.png",
+          "winner": null
+        },
+        "away": {
+          "id": 9412,
+          "name": "SS Reyes",
+          "logo": "https://media-4.api-sports.io/football/teams/9412.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": [
+        {
+          "time": {
+            "elapsed": 7,
+            "extra": null
+          },
+          "team": {
+            "id": 9900,
+            "name": "Guadalajara",
+            "logo": "https://media-4.api-sports.io/football/teams/9900.png"
+          },
+          "player": {
+            "id": null,
+            "name": "D. Morcillo"
+          },
+          "assist": {
+            "id": null,
+            "name": null
+          },
+          "type": "Goal",
+          "detail": "Normal Goal",
+          "comments": null
+        },
+        {
+          "time": {
+            "elapsed": 12,
+            "extra": null
+          },
+          "team": {
+            "id": 9412,
+            "name": "SS Reyes",
+            "logo": "https://media-4.api-sports.io/football/teams/9412.png"
+          },
+          "player": {
+            "id": 46697,
+            "name": "Juancho"
+          },
+          "assist": {
+            "id": null,
+            "name": null
+          },
+          "type": "Goal",
+          "detail": "Normal Goal",
+          "comments": null
+        }
+      ]
+    },
+    {
+      "fixture": {
+        "id": 1089019,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2023-09-20T17:00:00+00:00",
+        "timestamp": 1695229200,
+        "periods": {
+          "first": 1695229200,
+          "second": null
+        },
+        "venue": {
+          "id": 12078,
+          "name": "Sportzentrum Donaustauf - Platz 1",
+          "city": "Donaustauf"
+        },
+        "status": {
+          "long": "First Half",
+          "short": "1H",
+          "elapsed": 18
+        }
+      },
+      "league": {
+        "id": 938,
+        "name": "Oberliga - Bayern Nord",
+        "country": "Germany",
+        "logo": "https://media-4.api-sports.io/football/leagues/938.png",
+        "flag": "https://media-4.api-sports.io/flags/de.svg",
+        "season": 2023,
+        "round": "Bayern Nord - 6"
+      },
+      "teams": {
+        "home": {
+          "id": 17030,
+          "name": "Donaustauf",
+          "logo": "https://media-4.api-sports.io/football/teams/17030.png",
+          "winner": null
+        },
+        "away": {
+          "id": 14619,
+          "name": "Ammerthal",
+          "logo": "https://media-4.api-sports.io/football/teams/14619.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    }
+  ]
+}
