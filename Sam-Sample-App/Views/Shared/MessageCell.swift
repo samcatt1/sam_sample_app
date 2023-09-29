@@ -13,19 +13,22 @@ class MessageCell: UITableViewCell {
         static let padding: CGFloat = 15
     }
     
-    lazy var noStatsAvailableLabel: UILabel = {
+    // set up view element
+    lazy var messageText: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.font = UIFont.systemFont(ofSize: 16)
         label.textAlignment = .center
-        label.text = "There are no statistics available for this match"
+        label.numberOfLines = 0
+        label.accessibilityIdentifier = "Message Text"
         return label
     }()
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
+        accessibilityIdentifier = "Message Cell"
         selectionStyle = .none
-        contentView.addSubview(noStatsAvailableLabel)
+        contentView.addSubview(messageText)
         layout()
     }
     
@@ -33,23 +36,29 @@ class MessageCell: UITableViewCell {
         return nil
     }
     
+    // layout view element with view constraints
     func layout() {
-        noStatsAvailableLabel.leadingAnchor.constraint(
+        messageText.leadingAnchor.constraint(
             equalTo: contentView.leadingAnchor,
             constant: Constants.padding
         ).isActive = true
-        noStatsAvailableLabel.trailingAnchor.constraint(
+        messageText.trailingAnchor.constraint(
             equalTo: contentView.trailingAnchor,
             constant: -Constants.padding
         ).isActive = true
-        noStatsAvailableLabel.topAnchor.constraint(
+        messageText.topAnchor.constraint(
             equalTo: contentView.topAnchor,
             constant: Constants.padding
         ).isActive = true
-        noStatsAvailableLabel.bottomAnchor.constraint(
+        messageText.bottomAnchor.constraint(
             equalTo: contentView.bottomAnchor,
             constant: -Constants.padding
         ).isActive = true
+    }
+    
+    // method to configure the message to say custom string
+    func configure(message: String) {
+        messageText.text = message
     }
     
 }

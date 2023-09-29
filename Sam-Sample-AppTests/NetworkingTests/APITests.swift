@@ -5,31 +5,69 @@
 //  Created by Samantha Cattani on 2023-09-22.
 //
 
+@testable import Sam_Sample_App
 import XCTest
 
 final class APITests: XCTestCase {
-
+    var api: API?
+    
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        api = API()
     }
 
     override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        api = nil
     }
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    func testGetDataFromPlist() throws {
+        guard let api = api else {
+            XCTFail("API cannot be initialized")
+            return
         }
+        
+        let val = api.getDataFromInfoPlist(fieldName: "TestRapidAPIKey")
+        
+        XCTAssertEqual("test-key", val)
     }
+    
+    func testGetDataFromPlistBadKey() throws {
+        guard let api = api else {
+            XCTFail("API cannot be initialized")
+            return
+        }
+        
+        let val = api.getDataFromInfoPlist(fieldName: "nonExistantKey")
+        
+        XCTAssertNil(val)
+    }
+    
+    func testSetUpRequestUrl() throws {
+        guard let api = api else {
+            XCTFail("API cannot be initialized")
+            return
+        }
 
+        let request = api.setUpRequest(url: "https://www.google.com")
+        
+        let headers = [
+            "X-RapidAPI-Key": api.getDataFromInfoPlist(fieldName: "RapidAPIKey")!,
+            "X-RapidAPI-Host": api.getDataFromInfoPlist(fieldName: "RapidAPIHost")!
+        ]
+
+        XCTAssertTrue(request?.httpMethod == "GET")
+        XCTAssertEqual(request?.allHTTPHeaderFields?["X-RapidAPI-Host"], headers["X-RapidAPI-Host"])
+        XCTAssertEqual(request?.allHTTPHeaderFields?["X-RapidAPI-Key"], headers["X-RapidAPI-Key"])
+        XCTAssertTrue(request?.url?.absoluteString == "https://www.google.com")
+    }
+    
+    func testSetUpRequestUrlBadURL() throws {
+        guard let api = api else {
+            XCTFail("API cannot be initialized")
+            return
+        }
+
+        let request = api.setUpRequest(url: "™")
+
+        XCTAssertNil(request)
+    }
 }

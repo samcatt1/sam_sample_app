@@ -8,15 +8,7 @@
 import XCTest
 
 final class LoadingTableCellTests: XCTestCase {
-
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
+    
     func testInit() throws {
         let cell = LoadingTableCell(
             style: .default,
@@ -29,12 +21,10 @@ final class LoadingTableCellTests: XCTestCase {
     }
     
     func testRequiredInit() throws {
-//       try let cell = LoadingTableCell(
-//        style: .default,
-//        reuseIdentifier: String(describing: LoadingTableCell.self)
-//    )
-//        XCTAssertThrowsError(LoadingTableCell(coder: NSCoder())
-//        )
+        let coder = NSCoder()
+        let cell = LoadingTableCell(coder: coder)
+        
+        XCTAssertNil(cell)
     }
 
     func testLayout() throws {

@@ -14,53 +14,63 @@ class GameDetailCellView: UITableViewCell {
         static let padding: CGFloat = 15
     }
     
-    private lazy var statName: UILabel = {
+    // set up view elements
+    lazy var statName: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.font = UIFont.systemFont(ofSize: 20, weight: .bold)
+        label.font = UIFont.systemFont(ofSize: 16, weight: .semibold)
         label.textAlignment = .center
+        label.accessibilityIdentifier = "Stat Name"
         return label
     }()
     
-    private lazy var bar: UIProgressView = {
+    lazy var bar: UIProgressView = {
         let bar = UIProgressView(progressViewStyle: .bar)
         bar.translatesAutoresizingMaskIntoConstraints = false
         bar.center = contentView.center
-        bar.setProgress(0.5, animated: false)
         bar.trackTintColor = .green
         bar.tintColor = .blue
+        bar.accessibilityIdentifier = "Stat Visual Comparison"
         return bar
     }()
     
-    private lazy var team1Stat: UILabel = {
+    lazy var team1Stat: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.font = UIFont.systemFont(ofSize: 20)
+        label.font = UIFont.systemFont(ofSize: 16)
+        label.accessibilityIdentifier = "Away Team Stat Value"
         return label
     }()
     
-    private lazy var team2Stat: UILabel = {
+    lazy var team2Stat: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.font = UIFont.systemFont(ofSize: 20)
+        label.accessibilityIdentifier = "Home Team Stat Value"
         return label
     }()
 
+    // initialize cell
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
+        
         selectionStyle = .none
+        accessibilityIdentifier = "Game Stat Cell"
+        
         contentView.addSubview(statName)
         contentView.addSubview(team1Stat)
         contentView.addSubview(bar)
         contentView.addSubview(team2Stat)
+        
         layout()
     }
 
-    required init(coder _: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+    required init?(coder _: NSCoder) {
+        return nil
     }
     
-    private func layout() {
+    // layout subviews with constraints
+    func layout() {
         statName.leadingAnchor.constraint(
             equalTo: contentView.leadingAnchor,
             constant: Constants.padding
@@ -118,8 +128,9 @@ class GameDetailCellView: UITableViewCell {
         ).isActive = true
     }
 
+    // method to update the view to the values in the model
     func configure(model: GameDetailStatModel) {
-        statName.text = model.statName.uppercased()
+        statName.text = model.statName.uppercased().replacing("_", with: " ")
         team1Stat.text = model.team1Stat
         team2Stat.text = model.team2Stat
         
@@ -129,10 +140,18 @@ class GameDetailCellView: UITableViewCell {
             model.team2Stat.removeLast()
         }
         
-        let team1Int = Int(model.team1Stat) ?? 1
-        let team2Int = Int(model.team2Stat) ?? 1
-        let total = team1Int + team2Int
-        let percentTeam1 = CGFloat(team1Int) / CGFloat(total)
-        bar.setProgress(Float(percentTeam1), animated: false)
+        if model.team1Stat == "0" && model.team2Stat == "0" {
+            bar.setProgress(0, animated: false)
+            bar.tintColor = .lightGray
+            bar.trackTintColor = .lightGray
+        } else {
+            let team1Int = Double(model.team1Stat) ?? 1
+            let team2Int = Double(model.team2Stat) ?? 1
+            let total = team1Int + team2Int
+            let percentTeam1 = team1Int / total
+            bar.setProgress(Float(percentTeam1), animated: false)
+            bar.trackTintColor = .green
+            bar.tintColor = .blue
+        }
     }
 }

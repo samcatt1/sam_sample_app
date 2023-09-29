@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 
 class GameTableCell: UITableViewCell {
-    private var cellModel: GameCellViewModel?
+    var cellModel: GameCellViewModel?
     
     @IBOutlet weak var team1ImageView: UIImageView!
     @IBOutlet weak var team2ImageView: UIImageView!
@@ -20,31 +20,15 @@ class GameTableCell: UITableViewCell {
     @IBOutlet weak var countryLabel: UILabel!
     @IBOutlet weak var team1NameLabel: UILabel!
     @IBOutlet weak var team2NameLabel: UILabel!
+    @IBOutlet weak var blueLine: UIView!
+    @IBOutlet weak var greenLine: UIView!
     
-    var keyWindow: UIWindow? {
-        // Get connected scenes
-        return UIApplication.shared.connectedScenes
-        // Keep only active scenes, onscreen and visible to the user
-            .filter { $0.activationState == .foregroundActive }
-        // Keep only the first `UIWindowScene`
-            .first(where: { $0 is UIWindowScene })
-        // Get its associated windows
-            .flatMap({ $0 as? UIWindowScene })?.windows
-        // Finally, keep only the key window
-            .first(where: \.isKeyWindow)
-    }
-    
-    override func awakeFromNib() {
-        super.awakeFromNib()
-//        contentView.addGestureRecognizer(
-//            UITapGestureRecognizer(target: self, action: #selector(viewWasTapped))
-//        )
-        configure(model: nil)
-    }
-    
-    func configure(model: GameCellViewModel?) {
-        guard let model = model else {
-            return
+    // method to update the view to the values in the model
+    func configure(model: GameCellViewModel, shouldShowLines: Bool = false) {
+        
+        if !shouldShowLines {
+            blueLine.isHidden = true
+            greenLine.isHidden = true
         }
         
         cellModel = model
@@ -58,6 +42,7 @@ class GameTableCell: UITableViewCell {
         leagueLabel.text = model.league
         countryLabel.text = model.country
         
+        // need to load data on background thread and then add image to imageView on main thread
         if let url = URL(string: model.team1Logo) {
             DispatchQueue.global().async {
                 if let data = try? Data(contentsOf: url) {
@@ -68,6 +53,7 @@ class GameTableCell: UITableViewCell {
             }
         }
         
+        // need to load data on background thread and then add image to imageView on main thread
         if let url = URL(string: model.team2Logo) {
             DispatchQueue.global().async {
                 if let data = try? Data(contentsOf: url) {
@@ -78,12 +64,12 @@ class GameTableCell: UITableViewCell {
             }
         }
         
-        contentView.addGestureRecognizer(
+        addGestureRecognizer(
             UITapGestureRecognizer(target: self, action: #selector(viewWasTapped))
         )
     }
     
-    @objc private func viewWasTapped() {
+    @objc func viewWasTapped() {
         guard let model = cellModel else {
             return
         }

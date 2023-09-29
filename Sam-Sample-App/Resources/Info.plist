@@ -2,6 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>TestRapidAPIHost</key>
+	<string>test-host</string>
+	<key>TestRapidAPIKey</key>
+	<string>test-key</string>
+	<key>RapidAPIHost</key>
+	<string>api-football-v1.p.rapidapi.com</string>
+	<key>RapidAPIKey</key>
+	<string>efaef9fd29msh8a97fef593a9850p1eafccjsn0a16d5bc24dd</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

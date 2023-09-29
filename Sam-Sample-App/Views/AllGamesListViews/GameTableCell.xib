@@ -3,50 +3,62 @@
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="GameTableCell" rowHeight="159" id="4GA-rm-N9O" customClass="GameTableCell" customModule="Sam_Sample_App" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="384" height="159"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="GameTableCell" rowHeight="158" id="4GA-rm-N9O" customClass="GameTableCell" customModule="Sam_Sample_App" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="384" height="158"/>
             <autoresizingMask key="autoresizingMask"/>
             <tableViewCellContentView key="contentView" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" tableViewCell="4GA-rm-N9O" id="9YC-An-6g2">
-                <rect key="frame" x="0.0" y="0.0" width="384" height="159"/>
+                <rect key="frame" x="0.0" y="0.0" width="384" height="158"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TestImage" id="f9J-6s-SX7">
-                        <rect key="frame" x="38" y="9" width="60" height="60"/>
+                        <rect key="frame" x="38" y="15" width="60" height="60"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <accessibility key="accessibilityConfiguration" identifier="Away Team Image" label="Away Team Image">
+                            <bool key="isElement" value="YES"/>
+                        </accessibility>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="a9b-TG-7On">
-                        <rect key="frame" x="31" y="69" width="75" height="34"/>
+                        <rect key="frame" x="21" y="75" width="95" height="34"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <accessibility key="accessibilityConfiguration" identifier="Away Team Name" label="Away Team Name"/>
                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="t6v-YR-2Xw">
-                        <rect key="frame" x="47" y="97" width="42" height="49"/>
+                        <rect key="frame" x="47" y="103" width="42" height="49"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
+                        <accessibility key="accessibilityConfiguration" identifier="Away Team Score" label="Away Team Score"/>
                         <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TestImage" id="5j5-GY-EQa">
-                        <rect key="frame" x="286" y="9" width="60" height="60"/>
+                        <rect key="frame" x="286" y="15" width="60" height="60"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                        <accessibility key="accessibilityConfiguration" identifier="Home Team Image" label="Home Team Image">
+                            <bool key="isElement" value="YES"/>
+                        </accessibility>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tKI-D7-9X9">
-                        <rect key="frame" x="279" y="69" width="75" height="34"/>
+                        <rect key="frame" x="269" y="75" width="95" height="34"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <accessibility key="accessibilityConfiguration" identifier="Home Team Name" label="Home Team Name"/>
                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8QM-Kj-KEM">
-                        <rect key="frame" x="295" y="97" width="42" height="49"/>
+                        <rect key="frame" x="295" y="103" width="42" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <accessibility key="accessibilityConfiguration" identifier="Home Team Score" label="Home Team Score"/>
                         <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
@@ -54,13 +66,15 @@
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="25:46" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="RCd-oQ-rCa">
                         <rect key="frame" x="134" y="15" width="117" height="49"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                        <accessibility key="accessibilityConfiguration" identifier="Game Time" label="Game Time"/>
                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="England" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4Xj-nb-Bap">
-                        <rect key="frame" x="123" y="113" width="138" height="17"/>
+                        <rect key="frame" x="123" y="112" width="138" height="17"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
+                        <accessibility key="accessibilityConfiguration" identifier="Country Name" label="Country Name"/>
                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
@@ -68,17 +82,37 @@
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Premier League" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="RWJ-4G-Bqb">
                         <rect key="frame" x="138" y="60" width="108" height="54"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                        <accessibility key="accessibilityConfiguration" identifier="League Name" label="League Name"/>
                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                         <lineBreakStrategy key="lineBreakStrategy"/>
                     </label>
+                    <view contentMode="scaleToFill" id="jqF-NF-xar">
+                        <rect key="frame" x="192" y="154" width="182" height="4"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES"/>
+                        <viewLayoutGuide key="safeArea" id="iX8-pz-bwu"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                        <color key="tintColor" systemColor="systemGreenColor"/>
+                    </view>
+                    <view contentMode="scaleToFill" id="wwz-lb-Bhf">
+                        <rect key="frame" x="10" y="154" width="182" height="4"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
+                        <viewLayoutGuide key="safeArea" id="D53-5N-nQ3"/>
+                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                        <color key="tintColor" systemColor="systemBlueColor"/>
+                    </view>
                 </subviews>
                 <gestureRecognizers/>
             </tableViewCellContentView>
+            <accessibility key="accessibilityConfiguration" identifier="Game Table Cell View" label="Game Table Cell View">
+                <bool key="isElement" value="YES"/>
+            </accessibility>
             <gestureRecognizers/>
             <connections>
+                <outlet property="blueLine" destination="wwz-lb-Bhf" id="1Ld-dD-90p"/>
                 <outlet property="countryLabel" destination="4Xj-nb-Bap" id="eMd-8H-Wan"/>
+                <outlet property="greenLine" destination="jqF-NF-xar" id="6UC-KB-4b6"/>
                 <outlet property="leagueLabel" destination="RWJ-4G-Bqb" id="o6G-99-FcZ"/>
                 <outlet property="team1ImageView" destination="f9J-6s-SX7" id="UNB-Zd-UvW"/>
                 <outlet property="team1NameLabel" destination="a9b-TG-7On" id="Dtk-hS-i5Y"/>
@@ -88,10 +122,16 @@
                 <outlet property="team2Score" destination="8QM-Kj-KEM" id="Yp7-OR-JSR"/>
                 <outlet property="timeLabel" destination="RCd-oQ-rCa" id="h66-OO-HJK"/>
             </connections>
-            <point key="canvasLocation" x="-383.20610687022901" y="221.47887323943664"/>
+            <point key="canvasLocation" x="-383.20610687022901" y="220.42253521126761"/>
         </tableViewCell>
     </objects>
     <resources>
         <image name="TestImage" width="66" height="67.333335876464844"/>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
     </resources>
 </document>

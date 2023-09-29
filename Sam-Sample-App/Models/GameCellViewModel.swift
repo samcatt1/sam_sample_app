@@ -8,6 +8,7 @@
 import Foundation
 
 class GameCellViewModel {
+    var matchId: Int
     var gameTime: String
     var league: String
     var country: String
@@ -17,12 +18,13 @@ class GameCellViewModel {
     var team2Logo: String
     var team1Name: String
     var team2Name: String
-    var didTapCell: () -> Void
+    var didTapCell: (Int, GameCellViewModel) -> Void
     
-    init(gameTime: String, league: String, country: String,
+    init(matchId: Int, gameTime: String, league: String, country: String,
          team1Score: String, team1Logo: String, team2Score: String,
          team2Logo: String, team1Name: String, team2Name: String,
-         didTapCell: @escaping(() -> Void)) {
+         didTapCell: @escaping((Int, GameCellViewModel) -> Void)) {
+        self.matchId = matchId
         self.gameTime = gameTime
         self.league = league
         self.country = country

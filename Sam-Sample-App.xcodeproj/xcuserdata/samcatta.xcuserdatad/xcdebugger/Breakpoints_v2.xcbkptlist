@@ -1,0 +1,2009 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "D9744B63-AFC6-4EFB-88EA-18546D224B4E"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BDDDC0F1-5903-4BC7-9CE8-45C8092E2054"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-App/Controllers/GameDetailPageViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BDDDC0F1-5903-4BC7-9CE8-45C8092E2054 - 50206b0c9b537f26"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sam_Sample_App.GameDetailPageViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "Sam-Sample-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samcatta/Desktop/Sam-Sample-App/Sam-Sample-App/Controllers/GameDetailPageViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "1204">
+               </Location>
+               <Location
+                  uuid = "BDDDC0F1-5903-4BC7-9CE8-45C8092E2054 - 50206b0c9b537d59"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sam_Sample_App.GameDetailPageViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "Sam-Sample-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samcatta/Desktop/Sam-Sample-App/Sam-Sample-App/Controllers/GameDetailPageViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107"
+                  offsetFromSymbolStart = "1312">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1FC2BB4C-E8F1-4867-A31D-D190A0DEBFD0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-App/Controllers/GameDetailPageViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B9A316DB-A617-4C59-87DE-B470040A1CB7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-App/Networking/API.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
+            landmarkName = "getMatchDetails(fixtureId:finished:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B9A316DB-A617-4C59-87DE-B470040A1CB7 - c2bb0fb564981221"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Sam_Sample_App.API.getMatchDetails(fixtureId: Swift.Int, finished: (Swift.Array&lt;Sam_Sample_App.GameDetailStatModel&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Sam-Sample-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samcatta/Desktop/Sam-Sample-App/Sam-Sample-App/Networking/API.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "1136">
+               </Location>
+               <Location
+                  uuid = "B9A316DB-A617-4C59-87DE-B470040A1CB7 - 102acd2fd2bda3ca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static Sam_Sample_App.API.getMatchDetails(fixtureId: Swift.Int, finished: (Swift.Array&lt;Sam_Sample_App.GameDetailStatModel&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Sam-Sample-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samcatta/Desktop/Sam-Sample-App/Sam-Sample-App/Networking/API.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "93"
+                  endingLineNumber = "93"
+                  offsetFromSymbolStart = "468">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DC8B5D5D-3EBA-4B53-846C-7170AAF4D7FC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-App/Networking/API.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "110"
+            endingLineNumber = "110"
+            landmarkName = "getMatchDetails(fixtureId:finished:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E9C6FD64-BF24-4509-8863-EFA9F8077C6C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-App/Controllers/GameDetailPageViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "122"
+            endingLineNumber = "122"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3CA9DFC1-65F1-4CB0-A7FE-17392FD13A6E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-App/Networking/API.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
+            landmarkName = "getMatchDetails(fixtureId:finished:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3CA9DFC1-65F1-4CB0-A7FE-17392FD13A6E - c2bb0fb564981240"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Sam_Sample_App.API.getMatchDetails(fixtureId: Swift.Int, finished: (Swift.Array&lt;Sam_Sample_App.GameDetailStatModel&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Sam-Sample-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samcatta/Desktop/Sam-Sample-App/Sam-Sample-App/Networking/API.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "105"
+                  endingLineNumber = "105"
+                  offsetFromSymbolStart = "1120">
+               </Location>
+               <Location
+                  uuid = "3CA9DFC1-65F1-4CB0-A7FE-17392FD13A6E - 102acd2fd2bda146"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static Sam_Sample_App.API.getMatchDetails(fixtureId: Swift.Int, finished: (Swift.Array&lt;Sam_Sample_App.GameDetailStatModel&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Sam-Sample-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samcatta/Desktop/Sam-Sample-App/Sam-Sample-App/Networking/API.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "105"
+                  endingLineNumber = "105"
+                  offsetFromSymbolStart = "2292">
+               </Location>
+               <Location
+                  uuid = "3CA9DFC1-65F1-4CB0-A7FE-17392FD13A6E - 102acd2fd2bda3e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static Sam_Sample_App.API.getMatchDetails(fixtureId: Swift.Int, finished: (Swift.Array&lt;Sam_Sample_App.GameDetailStatModel&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Sam-Sample-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samcatta/Desktop/Sam-Sample-App/Sam-Sample-App/Networking/API.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "328">
+               </Location>
+               <Location
+                  uuid = "3CA9DFC1-65F1-4CB0-A7FE-17392FD13A6E - 102acd2fd2bda3e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static Sam_Sample_App.API.getMatchDetails(fixtureId: Swift.Int, finished: (Swift.Array&lt;Sam_Sample_App.GameDetailStatModel&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Sam-Sample-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samcatta/Desktop/Sam-Sample-App/Sam-Sample-App/Networking/API.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "452">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9F55A3C4-DF34-4145-B731-B5B13AA11083"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-App/Networking/StatsDecodable.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "init(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2C3CBF4E-1114-4B8D-BE71-50F9038AA475"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-App/Networking/StatsDecodable.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "init(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B2ABEAB6-A7C3-4AF5-92C2-D1E127B67962"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-App/Networking/StatsDecodable.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "init(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D6EFF407-2DE1-4A8B-971D-4EC13D133624"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-App/Views/GameDetailViews/GameDetailCellView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "143"
+            endingLineNumber = "143"
+            landmarkName = "configure(model:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F393A102-2605-4382-949F-DB97CA9CC246"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-App/Views/GameDetailViews/GameDetailCellView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "140"
+            endingLineNumber = "140"
+            landmarkName = "configure(model:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CB15C1EF-F507-4D4E-A39C-EC83AE0E9C6F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-App/Views/GameDetailViews/GameDetailCellView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "149"
+            endingLineNumber = "149"
+            landmarkName = "configure(model:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "28B1992F-03A4-4B00-AA21-2EC78FCCB72E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-App/Networking/StatsDecodable.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "init(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "73B2992B-1080-4F15-8956-114B145861A8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-App/Views/GameDetailViews/GameDetailCellView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "144"
+            endingLineNumber = "144"
+            landmarkName = "configure(model:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9ECE14B7-706D-4E04-AD23-9815044D3FC2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-AppTests/ViewTests/LoadingTableCellTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "testLayout()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A70BDF42-4E69-4F73-B404-6415EE37684D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-AppTests/ViewTests/LoadingTableCellTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "testLayout()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7D5F18B6-FDA6-41B5-89FB-A47551C6D3DC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-AppTests/ViewTests/LoadingTableCellTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "testLayout()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "57D118B0-64C4-46DD-BF3D-E1B25096002B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-AppTests/ViewTests/LoadingTableCellTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "testLayout()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3D432B0E-8867-42E9-AAEC-9D2E6CC60523"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-AppTests/ViewTests/LoadingTableCellTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "testLayout()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A5B0D050-521A-495A-9EBF-6389F9590F11"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-AppTests/NetworkingTests/MatchesDecodableTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "testAwayTeamDecoder()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DB1B68DC-1712-46BA-98EA-8F921CD5B130"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-AppTests/ViewTests/GameDetailViewTests/GameDetailCellTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "200"
+            endingLineNumber = "200"
+            landmarkName = "testConfigurePercentage()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "991B8167-A18A-4759-A4D0-14595ACDEC58"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-AppTests/ViewTests/GameDetailViewTests/GameDetailCellTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "201"
+            endingLineNumber = "201"
+            landmarkName = "testConfigurePercentage()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "991B8167-A18A-4759-A4D0-14595ACDEC58 - 2ec139c946ff5002"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sam_Sample_AppTests.GameDetailCellTests.testConfigurePercentage() throws -&gt; ()"
+                  moduleName = "Sam-Sample-AppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samcatta/Desktop/Sam-Sample-App/Sam-Sample-AppTests/ViewTests/GameDetailViewTests/GameDetailCellTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "203"
+                  endingLineNumber = "203"
+                  offsetFromSymbolStart = "548">
+               </Location>
+               <Location
+                  uuid = "991B8167-A18A-4759-A4D0-14595ACDEC58 - 2ec139c946ff5044"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sam_Sample_AppTests.GameDetailCellTests.testConfigurePercentage() throws -&gt; ()"
+                  moduleName = "Sam-Sample-AppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samcatta/Desktop/Sam-Sample-App/Sam-Sample-AppTests/ViewTests/GameDetailViewTests/GameDetailCellTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "201"
+                  endingLineNumber = "201"
+                  offsetFromSymbolStart = "576">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D7A530C8-9FA3-4011-841B-EE94B6585524"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-AppTests/ViewTests/GameDetailViewTests/GameDetailCellTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "219"
+            endingLineNumber = "219"
+            landmarkName = "testConfigureNonPercentage()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D7A530C8-9FA3-4011-841B-EE94B6585524 - cf4c1caf2ab468e0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sam_Sample_AppTests.GameDetailCellTests.testConfigureNonPercentage() throws -&gt; ()"
+                  moduleName = "Sam-Sample-AppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samcatta/Desktop/Sam-Sample-App/Sam-Sample-AppTests/ViewTests/GameDetailViewTests/GameDetailCellTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "219"
+                  endingLineNumber = "219"
+                  offsetFromSymbolStart = "900">
+               </Location>
+               <Location
+                  uuid = "D7A530C8-9FA3-4011-841B-EE94B6585524 - cf4c1caf2ab46922"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sam_Sample_AppTests.GameDetailCellTests.testConfigureNonPercentage() throws -&gt; ()"
+                  moduleName = "Sam-Sample-AppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samcatta/Desktop/Sam-Sample-App/Sam-Sample-AppTests/ViewTests/GameDetailViewTests/GameDetailCellTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "221"
+                  endingLineNumber = "221"
+                  offsetFromSymbolStart = "932">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D4D0C30A-EFF2-4F07-B05F-7780BB26544C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-AppTests/Helpers/MockAPI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "getMatchDetails(fixtureId:finished:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D4D0C30A-EFF2-4F07-B05F-7780BB26544C - 16bc4ae025c72e50"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sam_Sample_AppTests.MockAPI.getMatchDetails(fixtureId: Swift.Int, finished: (Swift.Array&lt;Sam_Sample_App.GameDetailStatModel&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Sam-Sample-AppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samcatta/Desktop/Sam-Sample-App/Sam-Sample-AppTests/Helpers/MockAPI.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "404">
+               </Location>
+               <Location
+                  uuid = "D4D0C30A-EFF2-4F07-B05F-7780BB26544C - 16bc4ae025c72e50"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sam_Sample_AppTests.MockAPI.getMatchDetails(fixtureId: Swift.Int, finished: (Swift.Array&lt;Sam_Sample_App.GameDetailStatModel&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Sam-Sample-AppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samcatta/Desktop/Sam-Sample-App/Sam-Sample-AppTests/Helpers/MockAPI.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "412">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E9F526FE-2A82-40CD-B1F3-484393FAD58F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-App/Controllers/GameDetailPageViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "setTable()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "30661C89-3A03-43BF-B5B6-56BA4B9BFC09"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-App/Controllers/GameDetailPageViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "setTable()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9E29D4DC-3859-418D-B524-D2D7F24B75AC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-AppTests/ControllerTests/GameDetailPageViewControllerTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "138"
+            endingLineNumber = "138"
+            landmarkName = "testSetTable()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9931B312-6016-4BDC-A30D-8F57EDC7FD6D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-App/Controllers/GameDetailPageViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "setTable()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9931B312-6016-4BDC-A30D-8F57EDC7FD6D - 5e95bc660692f155"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sam_Sample_App.GameDetailPageViewController.setTable() -&gt; ()"
+                  moduleName = "Sam-Sample-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samcatta/Desktop/Sam-Sample-App/Sam-Sample-App/Controllers/GameDetailPageViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "9931B312-6016-4BDC-A30D-8F57EDC7FD6D - db2e078d43f2c0a3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;Sam_Sample_App.GameDetailStatModel&gt;) -&gt; () in Sam_Sample_App.GameDetailPageViewController.setTable() -&gt; ()"
+                  moduleName = "Sam-Sample-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samcatta/Desktop/Sam-Sample-App/Sam-Sample-App/Controllers/GameDetailPageViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "172">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "94729EB0-71BE-4E78-AAE2-E085CBC2419A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-AppTests/ControllerTests/GameDetailPageViewControllerTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "152"
+            endingLineNumber = "152"
+            landmarkName = "testNumberOfRowsInSectionLoaded()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DE2F6C79-ADF2-4B68-9C9E-1A812515EDC7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-AppTests/ControllerTests/GameDetailPageViewControllerTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "166"
+            endingLineNumber = "166"
+            landmarkName = "testNumberOfRowsInSectionLoadedNoDetails()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0C63FDF5-A2C6-4A88-BF4D-C4BB59998F0F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-AppTests/ControllerTests/GameDetailPageViewControllerTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "167"
+            endingLineNumber = "167"
+            landmarkName = "testNumberOfRowsInSectionLoadedNoDetails()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C949ED28-1D59-469C-A115-EE4ED14859AB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-AppTests/ControllerTests/GameDetailPageViewControllerTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "181"
+            endingLineNumber = "181"
+            landmarkName = "testCellForRowAtGameCell()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2476E9B3-66B6-483F-8187-0204C11AEA88"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-App/Controllers/GameListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2476E9B3-66B6-483F-8187-0204C11AEA88 - 3f5aac30ab0f3d8d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sam_Sample_App.GameListViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "Sam-Sample-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samcatta/Desktop/Sam-Sample-App/Sam-Sample-App/Controllers/GameListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "208">
+               </Location>
+               <Location
+                  uuid = "2476E9B3-66B6-483F-8187-0204C11AEA88 - 3f5aac30ab0f3d8d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sam_Sample_App.GameListViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "Sam-Sample-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samcatta/Desktop/Sam-Sample-App/Sam-Sample-App/Controllers/GameListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "224">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A2116E5D-96E8-4989-BBB1-7C77C5C5B483"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-App/Controllers/GameListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "setUpTableView()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A2116E5D-96E8-4989-BBB1-7C77C5C5B483 - 3c66b72028ee8040"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sam_Sample_App.GameListViewController.setUpTableView() -&gt; ()"
+                  moduleName = "Sam-Sample-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samcatta/Desktop/Sam-Sample-App/Sam-Sample-App/Controllers/GameListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "A2116E5D-96E8-4989-BBB1-7C77C5C5B483 - 3c66b72028ee8616"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sam_Sample_App.GameListViewController.setUpTableView() -&gt; ()"
+                  moduleName = "Sam-Sample-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samcatta/Desktop/Sam-Sample-App/Sam-Sample-App/Controllers/GameListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "176">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C3A75F3E-46BA-41F0-955E-BCFF077ABE83"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-App/Controllers/GameListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "setTable()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C3A75F3E-46BA-41F0-955E-BCFF077ABE83 - 417c697408a4a1a5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;Sam_Sample_App.GameCellViewModel&gt;) -&gt; () in Sam_Sample_App.GameListViewController.setTable() -&gt; ()"
+                  moduleName = "Sam-Sample-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samcatta/Desktop/Sam-Sample-App/Sam-Sample-App/Controllers/GameListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "172">
+               </Location>
+               <Location
+                  uuid = "C3A75F3E-46BA-41F0-955E-BCFF077ABE83 - 5c0bc2080bb98fce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sam_Sample_App.GameListViewController.setTable() -&gt; ()"
+                  moduleName = "Sam-Sample-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samcatta/Desktop/Sam-Sample-App/Sam-Sample-App/Controllers/GameListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "C3A75F3E-46BA-41F0-955E-BCFF077ABE83 - 2658b8fac6ba6f1b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "implicit closure #1 (Sam_Sample_App.GameListViewController) -&gt; (Swift.Int, Sam_Sample_App.GameCellViewModel) -&gt; () in Sam_Sample_App.GameListViewController.setTable() -&gt; ()"
+                  moduleName = "Sam-Sample-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samcatta/Desktop/Sam-Sample-App/Sam-Sample-App/Controllers/GameListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "C3A75F3E-46BA-41F0-955E-BCFF077ABE83 - 9004d129c8154d64"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "implicit closure #2 (Swift.Int, Sam_Sample_App.GameCellViewModel) -&gt; () in implicit closure #1 (Sam_Sample_App.GameListViewController) -&gt; (Swift.Int, Sam_Sample_App.GameCellViewModel) -&gt; () in Sam_Sample_App.GameListViewController.setTable() -&gt; ()"
+                  moduleName = "Sam-Sample-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samcatta/Desktop/Sam-Sample-App/Sam-Sample-App/Controllers/GameListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "C3A75F3E-46BA-41F0-955E-BCFF077ABE83 - 417c697408a49e73"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;Sam_Sample_App.GameCellViewModel&gt;) -&gt; () in Sam_Sample_App.GameListViewController.setTable() -&gt; ()"
+                  moduleName = "Sam-Sample-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samcatta/Desktop/Sam-Sample-App/Sam-Sample-App/Controllers/GameListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "176">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "240FDC8C-B5D7-4F34-B6C6-61A55B0E6BF6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-App/Controllers/GameListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "onMatchPress(matchId:model:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EE6E3197-32BD-4FCD-AB95-6AD8D4872BBB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-AppTests/ControllerTests/GameListViewControllerTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "124"
+            endingLineNumber = "124"
+            landmarkName = "testOnMatchPress()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EE6E3197-32BD-4FCD-AB95-6AD8D4872BBB - aea4bb1eb044179c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sam_Sample_AppTests.GameListViewControllerTests.testOnMatchPress() throws -&gt; ()"
+                  moduleName = "Sam-Sample-AppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samcatta/Desktop/Sam-Sample-App/Sam-Sample-AppTests/ControllerTests/GameListViewControllerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "125"
+                  endingLineNumber = "125"
+                  offsetFromSymbolStart = "256">
+               </Location>
+               <Location
+                  uuid = "EE6E3197-32BD-4FCD-AB95-6AD8D4872BBB - aea4bb1eb04417bd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sam_Sample_AppTests.GameListViewControllerTests.testOnMatchPress() throws -&gt; ()"
+                  moduleName = "Sam-Sample-AppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samcatta/Desktop/Sam-Sample-App/Sam-Sample-AppTests/ControllerTests/GameListViewControllerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "124"
+                  endingLineNumber = "124"
+                  offsetFromSymbolStart = "316">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "49C6C2D8-4848-4B49-B2BB-2EA22B072C5D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-App/Controllers/GameListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "setTable()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1ADB2B99-A65D-475B-8C85-FE8341D1D96F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-App/Controllers/GameListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "setTable()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1ADB2B99-A65D-475B-8C85-FE8341D1D96F - 417c697408a49ff7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;Sam_Sample_App.GameCellViewModel&gt;) -&gt; () in Sam_Sample_App.GameListViewController.setTable() -&gt; ()"
+                  moduleName = "Sam-Sample-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samcatta/Desktop/Sam-Sample-App/Sam-Sample-App/Controllers/GameListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "268">
+               </Location>
+               <Location
+                  uuid = "1ADB2B99-A65D-475B-8C85-FE8341D1D96F - aa341288071bf801"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Array&lt;Sam_Sample_App.GameCellViewModel&gt;) -&gt; () in Sam_Sample_App.GameListViewController.setTable() -&gt; ()"
+                  moduleName = "Sam-Sample-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samcatta/Desktop/Sam-Sample-App/Sam-Sample-App/Controllers/GameListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "40">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BFB23813-78A2-4D5B-8E84-71D65B8A3AAB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-AppTests/ViewTests/AllGamesListViewsTests/GameTableCellTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "setUpWithError()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BFB23813-78A2-4D5B-8E84-71D65B8A3AAB - bfd0d7d6003873e0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sam_Sample_AppTests.GameTableCellTests.setUpWithError() throws -&gt; ()"
+                  moduleName = "Sam-Sample-AppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samcatta/Desktop/Sam-Sample-App/Sam-Sample-AppTests/ViewTests/AllGamesListViewsTests/GameTableCellTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "812">
+               </Location>
+               <Location
+                  uuid = "BFB23813-78A2-4D5B-8E84-71D65B8A3AAB - bfd0d7d60038739e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sam_Sample_AppTests.GameTableCellTests.setUpWithError() throws -&gt; ()"
+                  moduleName = "Sam-Sample-AppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samcatta/Desktop/Sam-Sample-App/Sam-Sample-AppTests/ViewTests/AllGamesListViewsTests/GameTableCellTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "1140">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7371E81B-E644-45BB-A645-05A20822200D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-AppTests/ViewTests/AllGamesListViewsTests/GameTableCellTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "GameTableCellTests"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "7371E81B-E644-45BB-A645-05A20822200D - 235b391ef7c5451e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sam_Sample_AppTests.GameTableCellTests.cell.getter : Swift.Optional&lt;Sam_Sample_App.GameTableCell&gt;"
+                  moduleName = "Sam-Sample-AppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samcatta/Desktop/Sam-Sample-App/Sam-Sample-AppTests/ViewTests/AllGamesListViewsTests/GameTableCellTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "7371E81B-E644-45BB-A645-05A20822200D - d016492fa03190fa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sam_Sample_AppTests.GameTableCellTests.cell.setter : Swift.Optional&lt;Sam_Sample_App.GameTableCell&gt;"
+                  moduleName = "Sam-Sample-AppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samcatta/Desktop/Sam-Sample-App/Sam-Sample-AppTests/ViewTests/AllGamesListViewsTests/GameTableCellTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "7371E81B-E644-45BB-A645-05A20822200D - 63479262a7a6a817"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sam_Sample_AppTests.GameTableCellTests.cell.modify : Swift.Optional&lt;Sam_Sample_App.GameTableCell&gt;"
+                  moduleName = "Sam-Sample-AppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samcatta/Desktop/Sam-Sample-App/Sam-Sample-AppTests/ViewTests/AllGamesListViewsTests/GameTableCellTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "7371E81B-E644-45BB-A645-05A20822200D - e9f5e051c8dccfc1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sam_Sample_AppTests.GameTableCellTests.cell.modify : Swift.Optional&lt;Sam_Sample_App.GameTableCell&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Sam-Sample-AppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samcatta/Desktop/Sam-Sample-App/Sam-Sample-AppTests/ViewTests/AllGamesListViewsTests/GameTableCellTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "7371E81B-E644-45BB-A645-05A20822200D - fd2650ef0980b97b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sam_Sample_AppTests.GameTableCellTests.init(invocation: Swift.Optional&lt;__C.NSInvocation&gt;) -&gt; Sam_Sample_AppTests.GameTableCellTests"
+                  moduleName = "Sam-Sample-AppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samcatta/Desktop/Sam-Sample-App/Sam-Sample-AppTests/ViewTests/AllGamesListViewsTests/GameTableCellTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "7371E81B-E644-45BB-A645-05A20822200D - 68281b029333244b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sam_Sample_AppTests.GameTableCellTests.init(selector: ObjectiveC.Selector) -&gt; Sam_Sample_AppTests.GameTableCellTests"
+                  moduleName = "Sam-Sample-AppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samcatta/Desktop/Sam-Sample-App/Sam-Sample-AppTests/ViewTests/AllGamesListViewsTests/GameTableCellTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "7371E81B-E644-45BB-A645-05A20822200D - 6062c2e215d70090"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sam_Sample_AppTests.GameTableCellTests.init() -&gt; Sam_Sample_AppTests.GameTableCellTests"
+                  moduleName = "Sam-Sample-AppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samcatta/Desktop/Sam-Sample-App/Sam-Sample-AppTests/ViewTests/AllGamesListViewsTests/GameTableCellTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "72">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "18C7DDE8-77D8-409B-9040-17B12E4C9FF2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-AppTests/ViewTests/AllGamesListViewsTests/GameTableCellTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
+            landmarkName = "testConfigureWithNotShouldShowLines()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B3C29D59-4C19-4883-B45E-8AE430074C8A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-App/Views/AllGamesListViews/GameTableCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "viewWasTapped()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "24920FF0-70E4-46CF-B302-132DD1A9E45B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-App/Views/AllGamesListViews/GameTableCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "viewWasTapped()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C894F184-48D2-4C86-8DDB-D60FACD558AC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-App/Networking/API.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "setUpRequest(url:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D3517D0C-78B2-4C4C-86E6-F10025C68614"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-AppTests/NetworkingTests/APITests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "testSetUpRequestUrl()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A81FBF64-7779-4259-A91A-19FBB919AC85"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-App/Networking/API.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "setUpRequest(url:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2F575488-B86E-429D-85AE-6FEE249F632D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-App/Networking/API.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "setUpRequest(url:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4DFE5150-1E8A-491F-88DE-82DC6BD258D7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-App/Networking/API.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "getMatches(buttonAction:finished:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4DFE5150-1E8A-491F-88DE-82DC6BD258D7 - ea0117ad7220537d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sam_Sample_App.API.getMatches(buttonAction: (Swift.Int, Sam_Sample_App.GameCellViewModel) -&gt; (), finished: (Swift.Array&lt;Sam_Sample_App.GameCellViewModel&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Sam-Sample-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samcatta/Desktop/Sam-Sample-App/Sam-Sample-App/Networking/API.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "456">
+               </Location>
+               <Location
+                  uuid = "4DFE5150-1E8A-491F-88DE-82DC6BD258D7 - ea0117ad7220537d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sam_Sample_App.API.getMatches(buttonAction: (Swift.Int, Sam_Sample_App.GameCellViewModel) -&gt; (), finished: (Swift.Array&lt;Sam_Sample_App.GameCellViewModel&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Sam-Sample-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samcatta/Desktop/Sam-Sample-App/Sam-Sample-App/Networking/API.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "1012">
+               </Location>
+               <Location
+                  uuid = "4DFE5150-1E8A-491F-88DE-82DC6BD258D7 - 9326de95c09d616f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sam_Sample_App.API.getMatches(buttonAction: (Swift.Int, Sam_Sample_App.GameCellViewModel) -&gt; (), finished: (Swift.Array&lt;Sam_Sample_App.GameCellViewModel&gt;, Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "Sam-Sample-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samcatta/Desktop/Sam-Sample-App/Sam-Sample-App/Networking/API.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "420">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F2A9E3CA-0C0A-4EF9-905D-4FA422BD9BF8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-App/Networking/API.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "getMatches(buttonAction:finished:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F2A9E3CA-0C0A-4EF9-905D-4FA422BD9BF8 - ea0117ad722052f9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sam_Sample_App.API.getMatches(buttonAction: (Swift.Int, Sam_Sample_App.GameCellViewModel) -&gt; (), finished: (Swift.Array&lt;Sam_Sample_App.GameCellViewModel&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Sam-Sample-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samcatta/Desktop/Sam-Sample-App/Sam-Sample-App/Networking/API.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "364">
+               </Location>
+               <Location
+                  uuid = "F2A9E3CA-0C0A-4EF9-905D-4FA422BD9BF8 - cd2c8c338a1600a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Sam_Sample_App.API.getMatches(buttonAction: (Swift.Int, Sam_Sample_App.GameCellViewModel) -&gt; (), finished: (Swift.Array&lt;Sam_Sample_App.GameCellViewModel&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Sam-Sample-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samcatta/Desktop/Sam-Sample-App/Sam-Sample-App/Networking/API.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "252">
+               </Location>
+               <Location
+                  uuid = "F2A9E3CA-0C0A-4EF9-905D-4FA422BD9BF8 - 9326de95c09d60eb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sam_Sample_App.API.getMatches(buttonAction: (Swift.Int, Sam_Sample_App.GameCellViewModel) -&gt; (), finished: (Swift.Array&lt;Sam_Sample_App.GameCellViewModel&gt;, Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "Sam-Sample-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samcatta/Desktop/Sam-Sample-App/Sam-Sample-App/Networking/API.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "328">
+               </Location>
+               <Location
+                  uuid = "F2A9E3CA-0C0A-4EF9-905D-4FA422BD9BF8 - 50319d3f5a85983e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Sam_Sample_App.API.getMatches(buttonAction: (Swift.Int, Sam_Sample_App.GameCellViewModel) -&gt; (), finished: (Swift.Array&lt;Sam_Sample_App.GameCellViewModel&gt;, Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "Sam-Sample-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samcatta/Desktop/Sam-Sample-App/Sam-Sample-App/Networking/API.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "236">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "18A4A84A-F7C8-4B4F-9281-6FBF191D38DA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-AppTests/NetworkingTests/APITests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "setUpWithError()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "279D14A7-9B5C-48A8-B175-DCA82F839112"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-AppTests/NetworkingTests/APITests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "tearDownWithError()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6FB666E7-FC2B-4999-8FED-F7258F4AD578"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-AppTests/NetworkingTests/APITests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "testGetDataFromPlist()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3765D8E3-EB30-467E-AA0D-9A7A95311EFC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-AppTests/NetworkingTests/APITests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "testGetDataFromPlist()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6B3419D7-BAEF-4275-99EC-2A32BC1143F0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-App/Controllers/GameListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "setTable()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D6B85043-E843-42D9-B18F-D8B3B5123309"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-App/Networking/API.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "getMatches(buttonAction:finished:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D6B85043-E843-42D9-B18F-D8B3B5123309 - 50319d3f5a859fe5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Sam_Sample_App.API.getMatches(buttonAction: (Swift.Int, Sam_Sample_App.GameCellViewModel) -&gt; (), finished: (Swift.Array&lt;Sam_Sample_App.GameCellViewModel&gt;, Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "Sam-Sample-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samcatta/Desktop/Sam-Sample-App/Sam-Sample-App/Networking/API.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "1692">
+               </Location>
+               <Location
+                  uuid = "D6B85043-E843-42D9-B18F-D8B3B5123309 - 50319d3f5a859f8a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Sam_Sample_App.API.getMatches(buttonAction: (Swift.Int, Sam_Sample_App.GameCellViewModel) -&gt; (), finished: (Swift.Array&lt;Sam_Sample_App.GameCellViewModel&gt;, Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "Sam-Sample-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samcatta/Desktop/Sam-Sample-App/Sam-Sample-App/Networking/API.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "1340">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BE24F6D9-6EE2-49FC-93F3-88373B98CD00"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-App/Networking/API.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "getMatches(buttonAction:finished:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BE24F6D9-6EE2-49FC-93F3-88373B98CD00 - 50319d3f5a859fab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Sam_Sample_App.API.getMatches(buttonAction: (Swift.Int, Sam_Sample_App.GameCellViewModel) -&gt; (), finished: (Swift.Array&lt;Sam_Sample_App.GameCellViewModel&gt;, Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "Sam-Sample-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samcatta/Desktop/Sam-Sample-App/Sam-Sample-App/Networking/API.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "1056">
+               </Location>
+               <Location
+                  uuid = "BE24F6D9-6EE2-49FC-93F3-88373B98CD00 - 50319d3f5a859e48"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Sam_Sample_App.API.getMatches(buttonAction: (Swift.Int, Sam_Sample_App.GameCellViewModel) -&gt; (), finished: (Swift.Array&lt;Sam_Sample_App.GameCellViewModel&gt;, Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "Sam-Sample-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samcatta/Desktop/Sam-Sample-App/Sam-Sample-App/Networking/API.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "704">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7653293A-B44A-4FA2-BE25-25790D01DE30"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-App/Networking/API.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "getMatches(buttonAction:finished:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7653293A-B44A-4FA2-BE25-25790D01DE30 - 50319d3f5a859f8a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Sam_Sample_App.API.getMatches(buttonAction: (Swift.Int, Sam_Sample_App.GameCellViewModel) -&gt; (), finished: (Swift.Array&lt;Sam_Sample_App.GameCellViewModel&gt;, Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "Sam-Sample-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samcatta/Desktop/Sam-Sample-App/Sam-Sample-App/Networking/API.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "2504">
+               </Location>
+               <Location
+                  uuid = "7653293A-B44A-4FA2-BE25-25790D01DE30 - 50319d3f5a859fab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Sam_Sample_App.API.getMatches(buttonAction: (Swift.Int, Sam_Sample_App.GameCellViewModel) -&gt; (), finished: (Swift.Array&lt;Sam_Sample_App.GameCellViewModel&gt;, Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "Sam-Sample-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samcatta/Desktop/Sam-Sample-App/Sam-Sample-App/Networking/API.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "2152">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "05B2BCF1-9DDA-4616-B6EC-5B879EF0F44E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-App/Networking/API.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "getMatches(buttonAction:finished:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "05B2BCF1-9DDA-4616-B6EC-5B879EF0F44E - 50319d3f5a859e48"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Sam_Sample_App.API.getMatches(buttonAction: (Swift.Int, Sam_Sample_App.GameCellViewModel) -&gt; (), finished: (Swift.Array&lt;Sam_Sample_App.GameCellViewModel&gt;, Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "Sam-Sample-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samcatta/Desktop/Sam-Sample-App/Sam-Sample-App/Networking/API.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "916">
+               </Location>
+               <Location
+                  uuid = "05B2BCF1-9DDA-4616-B6EC-5B879EF0F44E - 50319d3f5a859e48"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Sam_Sample_App.API.getMatches(buttonAction: (Swift.Int, Sam_Sample_App.GameCellViewModel) -&gt; (), finished: (Swift.Array&lt;Sam_Sample_App.GameCellViewModel&gt;, Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "Sam-Sample-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samcatta/Desktop/Sam-Sample-App/Sam-Sample-App/Networking/API.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "1040">
+               </Location>
+               <Location
+                  uuid = "05B2BCF1-9DDA-4616-B6EC-5B879EF0F44E - 50319d3f5a859e69"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Sam_Sample_App.API.getMatches(buttonAction: (Swift.Int, Sam_Sample_App.GameCellViewModel) -&gt; (), finished: (Swift.Array&lt;Sam_Sample_App.GameCellViewModel&gt;, Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "Sam-Sample-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samcatta/Desktop/Sam-Sample-App/Sam-Sample-App/Networking/API.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "564">
+               </Location>
+               <Location
+                  uuid = "05B2BCF1-9DDA-4616-B6EC-5B879EF0F44E - 50319d3f5a859e69"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Sam_Sample_App.API.getMatches(buttonAction: (Swift.Int, Sam_Sample_App.GameCellViewModel) -&gt; (), finished: (Swift.Array&lt;Sam_Sample_App.GameCellViewModel&gt;, Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "Sam-Sample-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samcatta/Desktop/Sam-Sample-App/Sam-Sample-App/Networking/API.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "688">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A0897BE3-D26B-420F-ADCF-E9F52536F594"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-App/Networking/MatchesDecodable.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "Matches"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "92F21B6A-E72E-43D5-9F04-77133637CE5D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-App/Networking/MatchesDecodable.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "Response"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3E78B93B-3D76-4B54-BB56-E13ED50491B2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-App/Networking/MatchesDecodable.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "Fixture"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "40B2075E-B918-446B-868A-0CF0C1DD1904"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-App/Networking/MatchesDecodable.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "Status"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "53FB1B1D-0E33-41BB-AE15-A87973688997"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-App/Networking/MatchesDecodable.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "League"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2D4F2E66-353F-4787-986F-2BEFA5CB118B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-App/Networking/MatchesDecodable.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "Teams"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9E3D284B-60E3-4F94-8CF0-FDCCF18D8FEC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-App/Networking/MatchesDecodable.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "HomeTeam"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "462A8A08-F174-482D-8A21-CD4C6E03A916"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-App/Networking/MatchesDecodable.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "AwayTeam"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2DE5AE3D-10C1-4FE3-9268-D5B5F57F3D82"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-App/Networking/MatchesDecodable.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "Goals"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5403C460-6457-4667-8935-DE84AB68B472"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-AppUITests/Sam_Sample_AppUITestsLaunchTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "testLaunch()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E5F22143-A48B-42D6-96D6-E3A0625F1B7E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-AppUITests/Sam_Sample_AppUITests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "testNormalAppFlow()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C5130BD5-26A7-4C25-97E7-AFD0D348488C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sam-Sample-AppUITests/Sam_Sample_AppUITests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "testNormalAppFlow()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
